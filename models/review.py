@@ -2,7 +2,7 @@
 """
 A class Review module.
 """
-
+import models
 from models.base_model import BaseModel
 
 

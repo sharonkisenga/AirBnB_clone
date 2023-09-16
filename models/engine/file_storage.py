@@ -5,7 +5,12 @@ A storage class Module.
 import json
 import os
 from models.base_model import BaseModel
-from models import State, City, Amenity, Place, Review
+from models.user import User
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
 
 
 class FileStorage:
